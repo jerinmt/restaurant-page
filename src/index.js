@@ -5,16 +5,28 @@ import { displayMenu } from "./menu";
 import "./style.css";
 
 displayHome();
-const buttons = document.querySelectorAll('button');
-buttons[0].addEventListener('click', ()=>{
+const buttons = document.querySelectorAll("button");
+buttons[0].addEventListener(
+  "click",
+  () => {
     clearContent();
     displayHome();
-}, false);
-buttons[1].addEventListener('click', ()=>{
+  },
+  false,
+);
+buttons[1].addEventListener(
+  "click",
+  () => {
     clearContent();
     displayMenu();
-}, false);
-buttons[2].addEventListener('click', ()=>{
+  },
+  false,
+);
+buttons[2].addEventListener(
+  "click",
+  () => {
     clearContent();
     displayContact();
-}, false);
+  },
+  false,
+);
